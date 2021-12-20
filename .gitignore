@@ -1,2 +1,4 @@
 **/img/
 js/jquery.2_x.js
+**/*.css.map
+**/*.min.css.map
