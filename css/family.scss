@@ -29,7 +29,7 @@
             display: none;
             position: absolute;
             left:0;
-            top:100%;
+            top:100%; //엄마 높이만큼 내려간다. 엄마높이==대메뉴들
             background-color: white;
             border: 1px solid #222;
             min-width: 120px;
