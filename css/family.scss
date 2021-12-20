@@ -1,0 +1,41 @@
+.inner{//헤드, 콘텐츠, 풋
+    width: 1200px !important;
+    margin: 0 auto !important;
+}
+#hd{//헤드
+    .inner{//헤드 안에 로고랑 메뉴리스트
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{//로고
+        display: block;
+    }
+}
+#gnb{
+    display: flex;
+    li.d1li{//메뉴리스트
+        position: relative;
+        &:hover{//메뉴리스트에 커서가 올라가면
+            .d2ul{
+                display: block;
+            }
+        }
+        a.d1a{//대메뉴들
+            font-size: 1.5em;
+            padding: 15px;
+        }
+        .d2ul{//소메뉴봉지
+            display: none;
+            position: absolute;
+            left:0;
+            top:100%;
+            background-color: white;
+            border: 1px solid #222;
+            min-width: 120px;
+            max-width: 150px;
+           right: 0;
+
+        }
+    }
+}
